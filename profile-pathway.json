@@ -5,5 +5,10 @@
 			"description": "Praktikum pembuatan topic replication pada Apache Kafka",
 			"id": "kafka-topic-replication"
 		}
+		{
+			"title": "Confluent 101",
+			"description": "Praktikum quickstart Confluent",
+			"id": "confluent-101"
+		}
 	]
 }
