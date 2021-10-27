@@ -7,13 +7,13 @@ Pada langkah ini, kita akan menggunakan ksqlDB untuk membuat `stream` untuk topi
 
 Untuk membuat `stream` & `table` ini, kita masuk ke tab `ksqlDB` yang ada dibagian kiri. Lalu klik aplikasi ksqlDB yang secara default bernama `ksqldb1`.
 
-Untuk membuat `stream`, kita bisa membuatnya dengan `query` berikut.
+1. Untuk membuat `stream`, kita bisa membuatnya dengan `query` berikut.
 
 `CREATE STREAM pageviews WITH (KAFKA_TOPIC='pageviews', VALUE_FORMAT='AVRO');`{{copy}}
 
-Paste query tadi ke tab `Editor` lalu jalankan query dengan klik `Run Query`.
+2. Paste query tadi ke tab `Editor` lalu jalankan query dengan klik `Run Query`.
 
-Lalu untuk membuat `table` cara yang digunakan kurang lebih sama dengan membuat `stream` namun `query` nya saja yang berbeda.
+3. Lalu untuk membuat `table` cara yang digunakan kurang lebih sama dengan membuat `stream` namun `query` nya saja yang berbeda.
 
 `CREATE TABLE users (id VARCHAR PRIMARY KEY)
   WITH (KAFKA_TOPIC='users', VALUE_FORMAT='AVRO');`{{copy}}

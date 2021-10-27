@@ -1,4 +1,4 @@
-# Install Docker Compose
+<!-- # Install Docker Compose
 
 Remove current `docker`
 
@@ -18,7 +18,7 @@ Link to `/usr/bin`
 
 Verify `docker-compose` sudah terinstall
 
-`docker-compose version`{{execute}}
+`docker-compose version`{{execute}} -->
 
 # Setup Cluster
 
@@ -39,4 +39,4 @@ Sekarang kita akan bangun cluster menggunakan perintah dibawah.
 
 Tunggu beberapa saat agar Cluster benar benar online. Lalu akses tab `Dashboard` yang berada disebelah tab `Terminal`. Mulai dari sekarang, sampai step terakhir, kita akan mengoperasikan `Confluent` melalui `Dashboard` ini.
 
-Jika masih ada tulisan "Unable connect to Port 9021", tunggu beberapa saat lagi kemudian klik `Display Port`.
+Jika masih ada tulisan "Unable to connect to Port 9021", tunggu beberapa saat lagi kemudian klik `Try again` atau `Display Port`.

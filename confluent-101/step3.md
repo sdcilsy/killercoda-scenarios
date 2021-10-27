@@ -5,10 +5,10 @@ Pada langkah ini, kita menggunakan Kafka Connect untuk menjalankan `demo source 
 ## Topic pageviews
 
 Kita akan membuat `DatagenConnector` untuk topic `pageviews` terlebih dahulu.
-- Masuk ke tab `Connect` yang berada di panel kiri.
-- Klik `connect-default`.
-- Klik `Add connector` lalu pilih `DatagenConnector`.
-- Isikan informasi `DatagenConnector` seperti:
+1. Masuk ke tab `Connect` yang berada di panel kiri.
+2. Klik `connect-default`.
+3. Klik `Add connector` lalu pilih `DatagenConnector`.
+4. Isikan informasi `DatagenConnector` seperti:
   ```
   Name: datagen-pageviews
   Key converter class: org.apache.kafka.connect.storage.StringConverter
@@ -16,7 +16,7 @@ Kita akan membuat `DatagenConnector` untuk topic `pageviews` terlebih dahulu.
   max.interval: 100
   quickstart: pageviews
   ```
-- Klik `Next` lalu lihat konfigurasi connector yang sudah kita buat. Kurang lebih seperti ini.
+5. Klik `Next` lalu lihat konfigurasi connector yang sudah kita buat. Kurang lebih seperti ini.
 ```
 {
   "name": "datagen-pageviews",
@@ -30,17 +30,17 @@ Kita akan membuat `DatagenConnector` untuk topic `pageviews` terlebih dahulu.
   }
 }
 ```
-- Lalu klik `Launch`.
+6. Lalu klik `Launch`.
 
 Jika kita kembali ke tab `Topics` dan memilih topic `pageviews`, bisa kita lihat ada stream data dummy yang berlangsung.
 
 ## Topic pageviews
 
 Lalu kita akan membuat `DatagenConnector` untuk topic kedua `users`. Cara yang digunakan juga tidak jauh berbeda, namun kali ini kita memvariasikan konfigurasinya.
-- Masuk ke tab `Connect` yang berada di panel kiri.
-- Klik `connect-default`.
-- Klik `Add connector` lalu pilih `DatagenConnector`.
-- Isikan informasi `DatagenConnector` seperti:
+1. Masuk ke tab `Connect` yang berada di panel kiri.
+2. Klik `connect-default`.
+3. Klik `Add connector` lalu pilih `DatagenConnector`.
+4. Isikan informasi `DatagenConnector` seperti:
   ```
   Name: datagen-users
   Key converter class: org.apache.kafka.connect.storage.StringConverter
@@ -48,7 +48,7 @@ Lalu kita akan membuat `DatagenConnector` untuk topic kedua `users`. Cara yang d
   max.interval: 1000
   quickstart: users
   ```
-- Klik `Next` lalu lihat konfigurasi connector yang sudah kita buat. Kurang lebih seperti ini.
+5. Klik `Next` lalu lihat konfigurasi connector yang sudah kita buat. Kurang lebih seperti ini.
 ```
 {
   "name": "datagen-users",
@@ -62,4 +62,4 @@ Lalu kita akan membuat `DatagenConnector` untuk topic kedua `users`. Cara yang d
   }
 }
 ```
-- Lalu klik `Launch`.
+6. Lalu klik `Launch`.
