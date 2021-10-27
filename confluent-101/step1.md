@@ -1,10 +1,20 @@
 # Install Docker Compose
 
+Remove current `docker`
+
+`rm /usr/bin/docker*`{{execute}}
+
 Get `docker-compose`
 
 `sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose`{{execute}}
 
-`sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose` {{execute}}
+Set permissions
+
+`sudo chmod +x /usr/local/bin/docker-compose`{{execute}}
+
+Link to `/usr/bin`
+
+`sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose`{{execute}}
 
 Verify `docker-compose` sudah terinstall
 

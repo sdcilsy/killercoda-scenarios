@@ -2,7 +2,7 @@
   "title": "Kafka Topic Replication",
   "description": "Praktikum pembuatan topic replication pada Apache Kafka",
   "difficulty": "Beginner",
-  "time": "5",
+  "time": "5 minutes",
   "details": {
     "steps": [
       {

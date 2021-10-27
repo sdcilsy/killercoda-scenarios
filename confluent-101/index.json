@@ -33,7 +33,7 @@
     "uilayout": "terminal-iframe"
   },
   "backend": {
-    "imageid": "openjdk:15",
+    "imageid": "docker",
     "port": "9021"
   }
 }
