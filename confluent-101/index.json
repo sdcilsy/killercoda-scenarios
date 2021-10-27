@@ -33,7 +33,7 @@
     "uilayout": "terminal-iframe"
   },
   "backend": {
-    "imageid": "docker",
+    "imageid": "ubuntu1604",
     "port": "9021"
   }
 }
