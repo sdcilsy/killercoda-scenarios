@@ -1,3 +1,15 @@
+# Install Docker Compose
+
+Get `docker-compose`
+
+`sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose`{{execute}}
+
+`sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose` {{execute}}
+
+Verify `docker-compose` sudah terinstall
+
+`docker-compose version`{{execute}}
+
 # Setup Cluster
 
 `Confluent` dapat di deploy menggunakan Docker.
@@ -16,3 +28,5 @@ Sekarang kita akan bangun cluster menggunakan perintah dibawah.
 # Go to Dashboard
 
 Tunggu beberapa saat agar Cluster benar benar online. Lalu akses tab `Dashboard` yang berada disebelah tab `Terminal`. Mulai dari sekarang, sampai step terakhir, kita akan mengoperasikan `Confluent` melalui `Dashboard` ini.
+
+Jika masih ada tulisan "Unable connect to Port 9021", tunggu beberapa saat lagi kemudian klik `Display Port`.
