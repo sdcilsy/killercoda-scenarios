@@ -33,7 +33,7 @@
     "uilayout": "terminal-iframe"
   },
   "backend": {
-    "imageid": "docker",
+    "imageid": "kubernetes-cluster-running:1.18",
     "port": "9021"
   }
 }
