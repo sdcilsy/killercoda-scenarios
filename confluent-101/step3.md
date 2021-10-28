@@ -6,6 +6,9 @@ Pada langkah ini, kita menggunakan Kafka Connect untuk menjalankan `demo source 
 
 Kita akan membuat `DatagenConnector` untuk topic `pageviews` terlebih dahulu.
 1. Masuk ke tab `Connect` yang berada di panel kiri.
+Note: Apabila ada tulisan `No Connect Clusters Found`, coba untuk mengeksekusi command dibawah sekali lagi.
+`docker-compose up -d`{{execute HOST2}}
+
 2. Klik `connect-default`.
 3. Klik `Add connector` lalu pilih `DatagenConnector`.
 4. Isikan informasi `DatagenConnector` seperti:
@@ -63,3 +66,5 @@ Lalu kita akan membuat `DatagenConnector` untuk topic kedua `users`. Cara yang d
 }
 ```
 6. Lalu klik `Launch`.
+
+Coba lihat kembali topic `pageviews` dan `users` lalu pilih tab `Messages`. Disana kedua `topic` sudah dipenuhi data-data dari `DatagenConnector` masing-masing.
