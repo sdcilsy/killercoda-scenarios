@@ -27,13 +27,13 @@ Verify `docker-compose` sudah terinstall
 Sekarang kita akan mendownload file `docker-compose.yaml` Confluent. Latest version yang digunakan saat ini adalah versi `6.2.1`.
 
 `curl --silent --output docker-compose.yml \
-  https://raw.githubusercontent.com/confluentinc/cp-all-in-one/6.2.1-post/cp-all-in-one/docker-compose.yml`{{execute}}
+  https://raw.githubusercontent.com/confluentinc/cp-all-in-one/6.2.1-post/cp-all-in-one/docker-compose.yml`{{execute HOST2}}
 
 # Cluster Goes Up
 
 Sekarang kita akan bangun cluster menggunakan perintah dibawah.
 
-`docker-compose up -d`{{execute}}
+`docker-compose up -d`{{execute HOST2}}
 
 # Go to Dashboard
 
