@@ -48,6 +48,6 @@ Fungsi distinct memungkinkan untuk mengembalikan value yang berbeda satu sama la
 sc.parallelize([1, 1, 2, 3, 3, 2, 4]).distinct().collect()
 ```{{execute}}
 
-Untuk melihat lebih banyak fungsi Transformasi RDD, coba kunjungi dokumentasi resminya di (sini)[https://spark.apache.org/docs/latest/rdd-programming-guide.html#transformations].
+Untuk melihat lebih banyak fungsi Transformasi RDD, coba kunjungi dokumentasi resminya [di sini](https://spark.apache.org/docs/latest/rdd-programming-guide.html#transformations).
 
-Dan sebagai tambahan, berikut (dokumentasi Pyspark)[https://spark.apache.org/docs/latest/api/python/reference/pyspark.html#rdd-apis].
+Dan sebagai tambahan, berikut [dokumentasi Pyspark](https://spark.apache.org/docs/latest/api/python/reference/pyspark.html#rdd-apis).

@@ -37,10 +37,22 @@ Selanjutnya kita akan menyimpan output tadi pada folder `output`
 
 `counts.saveAsTextFile("output")`{{execute}}
 
-Untuk melihat output tersebut, kita keluar dari Pyspark, lalu lihat folder `output`.
+Untuk melihat output tersebut, kita keluar dari Pyspark dengan kombinasi <kbd>Ctrl</kbd>+<kbd>D</kbd>
+
+`^D`{{execute ctrl-seq}}
+
+lalu lihat folder `output`.
 
 ```sh
 cd output
 ls
 ```{{execute}}
 
+Disana terlihat ada 2 file hasil dari transformasi tadi.
+
+```
+cat part-00000
+```{{execute}}
+```
+cat part-00001
+```{{execute}}
