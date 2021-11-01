@@ -7,7 +7,7 @@
     "assets": {
       "host01": [
           {"file": "username.csv", "target": "/root", "chmod": "+rwx"},
-          {"file": "input.txt", "target": "/root", "chmod": "+rwx"},
+          {"file": "input.txt", "target": "/root", "chmod": "+rwx"}
       ]
     },
     "steps": [
