@@ -2,8 +2,13 @@
   "title": "Spark",
   "description": "Spark",
   "difficulty": "Beginner",
-  "time": "15",
+  "time": "20 minutes",
   "details": {
+    "assets": {
+      "host01": [
+          {"file": "username.csv", "target": "/root", "chmod": "+rwx"}
+      ]
+    },
     "steps": [
       {
         "title": "Step 1",
@@ -34,6 +39,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "openjdk:15"
+    "imageid": "python:3.6"
   }
 }

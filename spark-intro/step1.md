@@ -20,5 +20,6 @@ distData = sc.parallelize(data)
 Kita bisa membuat RDD dari file CSV, JSON, atau lainnya.
 
 ```sh
-val rdd = spark.read.csv('user.csv')
+val rdd = spark.read.csv('username.csv')
 ```{{execute}}
+
