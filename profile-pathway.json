@@ -9,6 +9,11 @@
 			"title": "Confluent 101",
 			"description": "Praktikum quickstart Confluent",
 			"id": "confluent-101"
+		},
+		{
+			"title": "Introduction Spark",
+			"description": "Praktikum introduction Spark",
+			"id": "spark-intro"
 		}
 	]
 }
