@@ -7,3 +7,7 @@ tar xvf spark-3.2.0-bin-hadoop3.2.tgz
 mv spark-3.2.0-bin-hadoop3.2 /usr/local/spark
 
 export PATH=$PATH:/usr/local/spark/bin
+
+apt install python3-pip
+
+pip3 install pyspark
