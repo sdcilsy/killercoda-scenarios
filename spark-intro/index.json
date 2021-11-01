@@ -1,12 +1,13 @@
 {
   "title": "Spark",
-  "description": "Spark",
+  "description": "Introduction to Spark in Python",
   "difficulty": "Beginner",
-  "time": "20 minutes",
+  "time": "25 minutes",
   "details": {
     "assets": {
       "host01": [
-          {"file": "username.csv", "target": "/root", "chmod": "+rwx"}
+          {"file": "username.csv", "target": "/root", "chmod": "+rwx"},
+          {"file": "input.txt", "target": "/root", "chmod": "+rwx"},
       ]
     },
     "steps": [
