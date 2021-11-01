@@ -1,0 +1,1 @@
+Introduction to Spark in Python yang berisi praktikum cara membuat RDD, transformation dan action, dan contoh implementasi transformation action pada Spark.
