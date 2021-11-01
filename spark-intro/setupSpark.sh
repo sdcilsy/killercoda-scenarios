@@ -10,4 +10,6 @@ export PATH=$PATH:/usr/local/spark/bin
 
 apt install python3-pip
 
-pip3 install pyspark
+pip install pyspark
+
+pyspark
