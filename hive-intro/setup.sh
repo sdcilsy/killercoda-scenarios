@@ -34,6 +34,14 @@ mkdir /root/hadoop-3.3.1/tmpdata
 
 mkdir -p /root/hadoop-3.3.1/dfsdata/namenode /root/hadoop-3.3.1/dfsdata/datanode
 
+### Move preconfigured file
+
+mv core-site.xml /root/hadoop-3.3.1/etc/hadoop
+mv hdfs-site.xml /root/hadoop-3.3.1/etc/hadoop
+mv mapred-site.xml /root/hadoop-3.3.1/etc/hadoop
+mv yarn-site.xml /root/hadoop-3.3.1/etc/hadoop
+
+
 ### Set environment variable
 
 

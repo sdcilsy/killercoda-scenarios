@@ -6,10 +6,10 @@
   "details": {
     "assets": {
       "host01": [
-          {"file": "core-site.xml", "target": "/root/hadoop-3.3.1/etc/hadoop", "chmod": "+rwx"},
-          {"file": "hdfs-site.xml", "target": "/root/hadoop-3.3.1/etc/hadoop", "chmod": "+rwx"},
-          {"file": "mapred-site.xml", "target": "/root/hadoop-3.3.1/etc/hadoop", "chmod": "+rwx"},
-          {"file": "yarn-site.xml", "target": "/root/hadoop-3.3.1/etc/hadoop", "chmod": "+rwx"}
+          {"file": "core-site.xml", "target": "/root", "chmod": "+rwx"},
+          {"file": "hdfs-site.xml", "target": "/root", "chmod": "+rwx"},
+          {"file": "mapred-site.xml", "target": "/root", "chmod": "+rwx"},
+          {"file": "yarn-site.xml", "target": "/root", "chmod": "+rwx"}
       ]
     },
     "steps": [
