@@ -2,15 +2,15 @@
 
 ### Create user
 
-sudo adduser --gecos "" --disabled-password hdoop
+# sudo adduser --gecos "" --disabled-password hdoop
 
-chpasswd <<< "hdoop:hdoop"
+# chpasswd <<< "hdoop:hdoop"
 
-usermod -aG sudo hdoop
+# usermod -aG sudo hdoop
 
-sudo -S su hdoop
+# sudo -S su hdoop
 
-cd
+# cd
 
 
 ### ssh
@@ -18,7 +18,6 @@ cd
 # ssh-keygen -t rsa -P '' -f ~/.ssh/id_rsa
 
 # cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
-
 
 ssh localhost
 
