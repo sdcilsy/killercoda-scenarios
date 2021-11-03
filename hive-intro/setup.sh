@@ -80,15 +80,11 @@ hdfs dfs -mkdir /tmp
 
 hdfs dfs -chmod g+w /tmp
 
-hdfs dfs -ls /
-
 ### Create metadata dir
 
 hdfs dfs -mkdir -p /user/hive/warehouse
 
 hdfs dfs -chmod g+w /user/hive/warehouse
-
-hdfs dfs -ls /user/hive
 
 ### Copy Configuration
 
@@ -96,4 +92,4 @@ cp $HIVE_HOME/conf/hive-default.xml.template  $HIVE_HOME/conf/hive-default.xml
 
 ### Init Derby Database
 
-$HIVE_HOME/bin/schematool -dbType derby -initSchema
+# $HIVE_HOME/bin/schematool -dbType derby -initSchema
