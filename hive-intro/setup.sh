@@ -1,5 +1,7 @@
 #!/bin/bash
 
+## Hadoop Installation
+
 ### Test SSH
 
 ssh localhost
@@ -54,3 +56,46 @@ $HADOOP_HOME/bin/hdfs namenode -format
 $HADOOP_HOME/sbin/start-dfs.sh
 
 $HADOOP_HOME/sbin/start-yarn.sh
+
+
+
+## Hive instalation
+
+### Download Hive
+
+wget https://dlcdn.apache.org/hive/hive-3.1.2/apache-hive-3.1.2-bin.tar.gz
+
+tar xvf apache-hive-3.1.2-bin.tar.gz
+
+### Add path
+
+export HIVE_HOME="/root/apache-hive-3.1.2-bin"
+export PATH=$PATH:$HIVE_HOME/bin
+
+### Config $HIVE_HOME/bin/hive-config.sh
+
+echo 'export HADOOP_HOME=/root/hadoop-3.3.1' >> /root/apache-hive-3.1.2-bin/bin/hive-config.sh
+
+### Create tmp dir
+
+hdfs dfs -mkdir /tmp
+
+hdfs dfs -chmod g+w /tmp
+
+hdfs dfs -ls /
+
+### Create metadata dir
+
+hdfs dfs -mkdir -p /user/hive/warehouse
+
+hdfs dfs -chmod g+w /user/hive/warehouse
+
+hdfs dfs -ls /user/hive
+
+### Copy Configuration
+
+cp $HIVE_HOME/conf/hive-default.xml.template  $HIVE_HOME/conf/hive-default.xml
+
+### Init Derby Database
+
+$HIVE_HOME/bin/schematool -dbType derby -initSchema
