@@ -1,30 +1,12 @@
 #!/bin/bash
 
-### Create user
-
-# sudo adduser --gecos "" --disabled-password hdoop
-
-# chpasswd <<< "hdoop:hdoop"
-
-# usermod -aG sudo hdoop
-
-# sudo -S su hdoop
-
-# cd
-
-
-### ssh
-
-# ssh-keygen -t rsa -P '' -f ~/.ssh/id_rsa
-
-# cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
+### Test SSH
 
 ssh localhost
 
 ### Download hadoop
 
 wget https://downloads.apache.org/hadoop/common/hadoop-3.3.1/hadoop-3.3.1.tar.gz --no-check-certificate
-
 
 tar xvf hadoop-3.3.1.tar.gz
 
@@ -43,7 +25,6 @@ mv yarn-site.xml /root/hadoop-3.3.1/etc/hadoop
 
 
 ### Set environment variable
-
 
 export HADOOP_HOME=/root/hadoop-3.3.1
 export HADOOP_INSTALL=$HADOOP_HOME
