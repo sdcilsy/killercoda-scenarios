@@ -3,8 +3,12 @@
 
 <configuration>
 <property>
-  <name>dfs.datanode.data.dir</name>
-  <value>/root/hadoop-3.3.1/dfsdata</value>
+  <name>dfs.data.dir</name>
+  <value>/root/hadoop-3.3.1/dfsdata/namenode</value>
+</property>
+<property>
+  <name>dfs.data.dir</name>
+  <value>/root/hadoop-3.3.1/dfsdata/datanode</value>
 </property>
 <property>
   <name>dfs.replication</name>
