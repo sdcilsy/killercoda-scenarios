@@ -18,18 +18,7 @@ mkdir /root/hadoop-3.3.1/tmpdata
 
 mkdir -p /root/hadoop-3.3.1/dfsdata/namenode /root/hadoop-3.3.1/dfsdata/datanode
 
-### Setup Java 8
 
-apt-get update
-
-apt-get install openjdk-8-jdk -y
-
-### Update Java
-echo "Hellow"
-
-update-alternatives --set java /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
-
-export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre
 
 ### Move preconfigured file
 
