@@ -96,6 +96,12 @@ cp $HIVE_HOME/conf/hive-default.xml.template  $HIVE_HOME/conf/hive-default.xml
 
 $HIVE_HOME/bin/schematool -dbType derby -initSchema
 
+### Copy assets to HDFS
+
+hdfs dfs -put file1.csv /
+
+hdfs dfs -put file2.csv /
+
 ### Running Hive
 
 hive
