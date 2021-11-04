@@ -9,7 +9,8 @@
           {"file": "core-site.xml", "target": "/root", "chmod": "+rwx"},
           {"file": "hdfs-site.xml", "target": "/root", "chmod": "+rwx"},
           {"file": "mapred-site.xml", "target": "/root", "chmod": "+rwx"},
-          {"file": "yarn-site.xml", "target": "/root", "chmod": "+rwx"}
+          {"file": "yarn-site.xml", "target": "/root", "chmod": "+rwx"},
+          {"file": "setup.sh", "target": "/root", "chmod": "+rwx"}
       ]
     },
     "steps": [
@@ -23,8 +24,7 @@
       }
     ],
     "intro": {
-      "text": "intro.md",
-      "code": "setup.sh"
+      "text": "intro.md"
     },
     "finish": {
       "text": "finish.md"
