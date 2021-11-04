@@ -1,5 +1,15 @@
 #!/bin/bash
 
+## Setup Java 8
+
+apt update && apt upgrade -y
+
+apt install openjdk-8-jdk
+
+sudo update-alternatives --set java /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre
+
 ## Hadoop Installation
 
 ### Test SSH
@@ -47,7 +57,7 @@ export YARN_NODEMANAGER_USER=root
 
 ### buat hadoop-env.sh
 # echo 'export JAVA_HOME=${JAVA_HOME}' >> /root/hadoop-3.3.1/etc/hadoop/hadoop-env.sh
-echo 'export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64' >> /root/hadoop-3.3.1/etc/hadoop/hadoop-env.sh
+echo 'export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre' >> /root/hadoop-3.3.1/etc/hadoop/hadoop-env.sh
 
 ### Start Cluster
 
