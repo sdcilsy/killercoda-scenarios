@@ -95,3 +95,7 @@ cp $HIVE_HOME/conf/hive-default.xml.template  $HIVE_HOME/conf/hive-default.xml
 ### Init Derby Database
 
 # $HIVE_HOME/bin/schematool -dbType derby -initSchema
+
+### Running Hive
+
+hive
