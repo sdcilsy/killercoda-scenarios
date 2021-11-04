@@ -2,7 +2,7 @@
 
 ## Setup Java 8
 
-apt update && apt upgrade -y
+apt update
 
 apt install openjdk-8-jdk
 
