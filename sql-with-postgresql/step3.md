@@ -17,12 +17,12 @@ SELECT column_name FROM table_name;
 ```
 Contoh :
 ```
-SELECT nama_siswa FROM siswa;
-```
-kita bisa mendapatkan seluruh data dari tabel tanpa menyebutkan kolomnya. Yaitu menggunakan karakter “*”.
+SELECT nama FROM siswa;
+```{{execute}}
+Kita bisa mendapatkan seluruh data dari tabel tanpa menyebutkan kolomnya. Yaitu menggunakan karakter “*”.
 ```
 SELECT * FROM siswa;
-```
+```{{execute}}
 
 Kita dapat menggunakan klausa `WHERE` untuk menentukan kondisi/syarat. Misalnya kita ingin menampilkan data data yang mempunyai nilai lebih dari `80` dari kolom `nilai`.
 
@@ -47,7 +47,7 @@ Contoh:
 ```
 INSERT INTO student (nama, alamat) VALUES ('Vijay', 'Bekasi');
 INSERT INTO student VALUES ('Kipli', 'Bandung');
-```
+```{{execute}}
 
 ## UPDATE
 
@@ -63,7 +63,7 @@ UPDATE table_name SET column_name1 = value1, column_name2 = value2,….,column_n
 Contoh :
 ```
 UPDATE student SET nama = 'Andi' WHERE alamat = 'Bekasi';
-```
+```{{execute}}
 
 ## DELETE
 
@@ -78,6 +78,5 @@ DELETE FROM table_name WHERE some_condition; ( hapus hanya baris yang kondisinya
 Contoh :
 
 ```
-DELETE FROM student;
 DELETE FROM student WHERE nama = 'Kipli';
-```
+```{{execute}}

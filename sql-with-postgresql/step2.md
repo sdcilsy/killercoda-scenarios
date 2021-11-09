@@ -17,12 +17,23 @@ Syntax:
 CREATE DATABASE DB_NAME;
 CREATE TABLE TABLE_NAME (COLUMN_NAME DATATYPES[,....]);
 ``` 
+
 For example:
+
 ```
 Create database bigdata9;
 Create table siswa(nama varchar(25));
 CREATE USER udin WITH PASSWORD 'mel4yu90';
+```{{execute}}
+
+Untuk melihat list database, bisa menggunakan option pada `psql` yaitu:
 ```
+\l
+```{{execute}}
+Lalu untuk menggunakan database, kita menggunakan `\c`
+```
+\c bigdata9
+```{{execute}}
 
 ## ALTER
 
@@ -39,7 +50,7 @@ Contoh :
 ```
 ALTER TABLE siswa ADD alamat varchar(100);
 ALTER TABLE siswa ALTER COLUMN nama TYPE varchar(50);
-```
+```{{execute}}
 
 ## RENAME
 
@@ -53,7 +64,7 @@ ALTER TABLE table_name
 Contoh:
 ```
 ALTER TABLE siswa RENAME TO student;
-```
+```{{execute}}
 
 ## TRUNCATE
 
@@ -66,7 +77,7 @@ TRUNCATE table_name;
 Contoh:
 ```
 TRUNCATE student;
-```
+```{{execute}}
 
 ## DROP
 
@@ -76,7 +87,9 @@ Sintaks Umum:
 ```
 DROP TABLE table_name;
 ```
+
 Contoh:
+
 ```
-DROP TABLE Siswa;
-```
+DROP TABLE student;
+```{{execute}}

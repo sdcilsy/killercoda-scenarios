@@ -1,6 +1,8 @@
-# Setup PostgreSQL & pgAdmin
+# Setup PostgreSQL
 
-## Connect PostgreSQL
+Sudah kita sediakan sebuah environment dengan `PostgreSQL` yang sudah terpasang.
+
+<!-- ## Connect PostgreSQL
 
 Pada kali ini kita akan melakukan praktikum `SQL` pada `PostgreSQL` menggunakan dashboard `pgAdmin`.
 
@@ -20,4 +22,4 @@ password	: root
 ```
 Lalu klik `Save`.
 
-Setelah itu klik kanan Databases -> test_db yang ada di panel kiri pilih `Query Tool`. Sampai praktikum selesai, kita akan menggunakan `Query Tool` ini untuk mencoba perintah perintah pada SQL.
+Setelah itu klik kanan Databases -> test_db yang ada di panel kiri pilih `Query Tool`. Sampai praktikum selesai, kita akan menggunakan `Query Tool` ini untuk mencoba perintah perintah pada SQL. -->

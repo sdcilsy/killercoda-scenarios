@@ -21,6 +21,14 @@
       {
         "title": "Step 3",
         "text": "step3.md"
+      },
+      {
+        "title": "Step 4",
+        "text": "step4.md"
+      },
+      {
+        "title": "Step 5",
+        "text": "step5.md"
       }
     ],
     "intro": {
@@ -32,10 +40,9 @@
     }
   },
   "environment": {
-    "uilayout": "terminal-iframe"
+    "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "ubuntu:2004",
-    "port": "5050"
+    "imageid": "ubuntu:2004"
   }
 }
