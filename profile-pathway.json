@@ -19,6 +19,11 @@
 			"title": "Introduction Hive",
 			"description": "Hive Playground",
 			"id": "hive-intro"
+		},
+		{
+			"title": "SQL With PostgreSQL",
+			"description": "Basic SQL menggunakan PostgreSQL",
+			"id": "sql-with-postgresql"
 		}
 	]
 }
