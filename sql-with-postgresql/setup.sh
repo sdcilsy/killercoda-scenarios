@@ -4,4 +4,4 @@
 
 sudo apt install postgresql postgresql-contrib
 
-sudo -u postgres psql
+# sudo -u postgres psql

@@ -2,6 +2,11 @@
 
 Sudah kita sediakan sebuah environment dengan `PostgreSQL` yang sudah terpasang.
 
+Untuk masuk ke PostgreSQL, tinggal jalankan perintah berikut.
+```
+sudo -u postgres psql
+```{{execute}}
+
 <!-- ## Connect PostgreSQL
 
 Pada kali ini kita akan melakukan praktikum `SQL` pada `PostgreSQL` menggunakan dashboard `pgAdmin`.

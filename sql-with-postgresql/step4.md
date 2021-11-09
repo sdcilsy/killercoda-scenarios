@@ -18,12 +18,12 @@ Contoh:
 Ini akan memungkinkan pengguna untuk hanya menjalankan operasi SELECT dan UPDATE pada tabel student.
 ```
 GRANT SELECT, UPDATE ON student TO udin;
-```
+```{{execute}}
 
 Mengizinkan pengguna menjalankan semua perintah di database bigdata7.
 ```
 GRANT ALL PRIVILEGES ON DATABASE bigdata7 TO udin;
-```
+```{{execute}}
 
 ## REVOKE
 
@@ -36,4 +36,4 @@ REVOKE object_privileges ON table_name FROM user1, user2,… userN;
 Contoh:
 ```
 REVOKE ALL PRIVILEGES ON DATABASE bigdata7 FROM udin;
-```
+```{{execute}}

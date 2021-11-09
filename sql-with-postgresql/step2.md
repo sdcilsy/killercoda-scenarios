@@ -21,7 +21,7 @@ CREATE TABLE TABLE_NAME (COLUMN_NAME DATATYPES[,....]);
 For example:
 
 ```
-Create database bigdata9;
+Create database bigdata7;
 Create table siswa(nama varchar(25));
 CREATE USER udin WITH PASSWORD 'mel4yu90';
 ```{{execute}}
@@ -32,7 +32,7 @@ Untuk melihat list database, bisa menggunakan option pada `psql` yaitu:
 ```{{execute}}
 Lalu untuk menggunakan database, kita menggunakan `\c`
 ```
-\c bigdata9
+\c bigdata7
 ```{{execute}}
 
 ## ALTER
