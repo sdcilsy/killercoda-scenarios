@@ -24,6 +24,11 @@
 			"title": "SQL With PostgreSQL",
 			"description": "Basic SQL menggunakan PostgreSQL",
 			"id": "sql-with-postgresql"
+		},
+		{
+			"title": "Python Fundamental 1",
+			"description": "Interactive quiz for understanding Python",
+			"id": "python-1"
 		}
 	]
 }
