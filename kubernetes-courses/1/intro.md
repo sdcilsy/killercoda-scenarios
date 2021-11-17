@@ -1,7 +1,8 @@
-# The goal of this interactive scenario is to deploy a local development Kubernetes cluster using minikube #
+# Goal dari interactive scenario ini adalah untuk melakukan deploy Kubernetes cluster pada local development menggunakan minikube #
 
-The online terminal is a pre-configured Linux environment that can be used as a regular console (you can type commands). 
-Clicking on the `blocks of code` followed by the ENTER sign will execute that command in the terminal.
+Instruksi: 
+Terminal ini sudah dilengkapi dengan pre-configured Linux environment yang dapat Anda gunakan sebagaimana console pada laptop Anda.
+Untuk mempermudah Anda dalam memasukkan perintah/command, Anda disini dapat mengklik `code yang ada pada terminal ini` yang terdapat tanda ENTER, dan perintah akan secara otomatis dijalankan pada terminal.
 
 
 
