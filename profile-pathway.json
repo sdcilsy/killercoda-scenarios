@@ -31,9 +31,9 @@
 			"id": "python-1"
 		}
 		{
-			"title": "Membuat Kluster Kubernetes",
-			"description": "Membuat Kluster Kubernetes dengan Minikube",
-			"id": "_id/1"
-		}
+			"title": "Kubernetes 1",
+			"description": "Membuat Kubernetes Cluster menggunakan Minikube",
+			"id": "kubernetes-1"
+		}		
 	]
 }
