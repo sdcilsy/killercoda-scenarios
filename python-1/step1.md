@@ -1,16 +1,12 @@
-# Quiz
- 
->>Q1: Siapa pengembang bahasa pemrograman Python<<
-() Elon Musk
-() Guido Van Damme
-() Bill Gates
-(*) Guido Van Rossum
+# Hello World!
 
->>Q2: Mengapa Python disebut mudah dipelajari<<
-[*] Struktur yang sederhana
-[*] Syntax yang lebih sederhana
-[] Syntax menyerupai bahasa PHP
-[*] Banyak library
+Program pertama yang biasa kita buat saat mempelajari bahasa pemrograman adalah Hello World!. Ini adalah program sederhana yang digunakan untuk menampilkan kalimat "Hello World!".
+Pada Python, kita hanya membutuhkan 1 baris code serta keyword print() untuk membuat program ini.
 
->>Q3: Cobalah buat program menggunakan Python untuk menampilkan kalimat "Halo. Ini merupakan bahasa pemrograman Python!"<<
-=~= print("Halo. Ini merupakan bahasa pemrograman Python!")
+Lihat code berikut!
+
+`print("Hello World!")`{{execute}}
+
+Mudah bukan?
+
+Sekarang cobalah untuk membuat program sendiri untuk menampilkan nama masing masing pada terminal disamping!
