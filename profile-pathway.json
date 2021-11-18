@@ -30,5 +30,10 @@
 			"description": "Interactive quiz for understanding Python",
 			"id": "python-1"
 		}
+		{
+			"title": "Kubernetes 1",
+			"description": "Membuat Kubernetes Cluster menggunakan Minikube",
+			"id": "kubernetes-1"
+		}		
 	]
 }
