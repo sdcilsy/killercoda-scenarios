@@ -14,24 +14,16 @@ print("hello!")
 
 Kedua dengan karakter quotes (') & (")
 
-```sh
 '''
 ini comment
 sangat panjang
 sampai 3 line
 '''
 print("Hello!")
-```
-`cat comm1.py`{{execute HOST2}}
-`python comm1.py`{{execute HOST2}}
 
-
-```sh
 """
 ini comment
 sangat panjang
 sampai 3 line
 """
 print("Hello!")
-`cat comm2.py`{{execute HOST2}}
-`python comm2.py`{{execute HOST2}}
