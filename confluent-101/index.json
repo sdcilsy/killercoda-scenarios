@@ -2,7 +2,7 @@
   "title": "Confluent Quick Start",
   "description": "Praktikum ini berisi basic penggunaan Confluent mulai dari membuat topic, sampai ksqlDB",
   "difficulty": "Intermediate",
-  "time": "20 minutes",
+  "time": "60 minutes",
   "details": {
     "steps": [
       {
@@ -33,6 +33,6 @@
     "uilayout": "terminal-terminal"
   },
   "backend": {
-    "imageid": "kubernetes-cluster-running:1.18"
+    "imageid": "kubernetes-kubeadm-2nodes"
   }
 }
