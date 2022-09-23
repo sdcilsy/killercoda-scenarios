@@ -2,7 +2,7 @@
   "title": "Spark",
   "description": "Introduction to Spark in Python",
   "difficulty": "Beginner",
-  "time": "25 minutes",
+  "time": "60 minutes",
   "details": {
     "assets": {
       "host01": [

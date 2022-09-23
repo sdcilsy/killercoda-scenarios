@@ -26,7 +26,7 @@ Selanjutnya, membaca setiap kata sebagai sebuah `key` dengan `value` '1' `map(la
 Terakhir, ketika ada kata/key yang sama, maka akan menambahkan value itu sendiri `reduceByKey(lambda a,b:a +b)`.
 
 ```sh
-count = inputfile.flatMap(lambda line: line.split(" ")) \
+counts = inputfile.flatMap(lambda line: line.split(" ")) \
 .map(lambda word: (word, 1)) \
 .reduceByKey(lambda a,b:a +b)
 ```{{execute}}
