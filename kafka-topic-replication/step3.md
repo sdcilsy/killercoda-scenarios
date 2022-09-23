@@ -7,11 +7,12 @@ Kali ini kita akan sedikit membuat message pada Topic yang sudah dibuat.
 Disini coba teman teman masukan message seperti:
 
 `Hello world`{{execute}}
+
 `Hello Big Data #9`{{execute}}
 
 ## Consume Event
 
-Buatlah sebuah terminal baru dengan cara mengeklik ikon (+) disamping `Terminal` lalu pilih `Open New Terminal`.
+Buatlah sebuah terminal baru dengan cara mengeklik ikon (+) disamping `Tab 1`.
 
 Kita akan melihat event/message yang ada pada `Topic-X`.
 
