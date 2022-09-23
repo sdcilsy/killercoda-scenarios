@@ -12,15 +12,16 @@ Disini coba teman teman masukan message seperti:
 
 ## Consume Event
 
-Buatlah sebuah terminal baru dengan cara mengeklik ikon (+) disamping `Tab 1`.
+Buatlah sebuah terminal baru dengan cara mengeklik ikon (+) disamping `Tab 1`. Lalu masuk ke `Tab 2`
 
 Kita akan melihat event/message yang ada pada `Topic-X`.
 
 `docker-compose exec kafka-1 kafka-console-consumer --bootstrap-server kafka-2:9092 --topic Topic-X --from-beginning`{{execute}}
 
-Kembali ke `Terminal 1` untuk membuat message baru.
+Kembali ke `Tab 1` untuk membuat message baru.
 
 `Ini message baru`{{execute}}
+
 `Salam kenal`{{execute}}
 
 Lalu lihat lagi `Terminal 2` untuk melihat hasilnya.
