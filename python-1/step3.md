@@ -14,16 +14,18 @@ print("hello!")
 
 Kedua dengan karakter quotes (') & (")
 
+```
 '''
 ini comment
 sangat panjang
 sampai 3 line
 '''
-print("Hello!"){{execute}}
+print("Hello!")```{{execute}}
 
+```
 """
 ini comment
 sangat panjang
 sampai 3 line
 """
-print("Hello!"){{execute}}
+print("Hello!")```{{execute}}

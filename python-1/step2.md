@@ -7,7 +7,9 @@ def hasil() :
     a = 1
     b = 2
     c = a + b
-    print ("hasil a + b adalah" + c)
+    print ("hasil a + b adalah", c)
+
+hasil()
 ```{{execute}}
 
 Jika tidak menggunakan indentasi, maka akan menimbulkan error.
@@ -17,5 +19,7 @@ def hasil() :
 a = 1
 b = 2
 c = a + b
-print ("hasil a + b adalah" + c)
+print ("hasil a + b adalah", c)
+
+hasil()
 ```{{execute}}
