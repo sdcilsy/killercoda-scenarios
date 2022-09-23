@@ -19,11 +19,11 @@ ini comment
 sangat panjang
 sampai 3 line
 '''
-print("Hello!")
+print("Hello!"){{execute}}
 
 """
 ini comment
 sangat panjang
 sampai 3 line
 """
-print("Hello!")
+print("Hello!"){{execute}}

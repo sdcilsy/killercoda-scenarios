@@ -3,7 +3,7 @@ Dalam python tidak ada definisi block code seperti pada PHP atau Java yang berup
 
 Contohnya seperti ini.
 ```sh
-function hasil() :
+def hasil() :
     a = 1
     b = 2
     c = a + b
@@ -13,7 +13,7 @@ function hasil() :
 Jika tidak menggunakan indentasi, maka akan menimbulkan error.
 
 ```sh
-function hasil() :
+def hasil() :
 a = 1
 b = 2
 c = a + b
