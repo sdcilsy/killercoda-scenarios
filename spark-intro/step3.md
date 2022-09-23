@@ -4,7 +4,7 @@
 
 Fungsi foreach() menerapkan sebuah fungsi ke setiap elemen pada RDD.
 
-`rdd = sc.parallelize([1, 2, 3, 4, 5]).foreach(lambda x: x + 1).collect()`{{execute}}
+`sc.parallelize([1, 2, 3, 4, 5]).foreach(lambda x: x + 1).collect()`{{execute}}
 
 ## Collect
 

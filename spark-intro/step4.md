@@ -48,11 +48,8 @@ cd output
 ls
 ```{{execute}}
 
-Disana terlihat ada 2 file hasil dari transformasi tadi.
+Disana terlihat ada 1 file hasil dari transformasi tadi.
 
 ```
 cat part-00000
-```{{execute}}
-```
-cat part-00001
 ```{{execute}}
