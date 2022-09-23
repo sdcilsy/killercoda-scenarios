@@ -38,8 +38,4 @@ Sekarang kita akan bangun cluster menggunakan perintah dibawah.
 
 1. Tunggu beberapa saat agar Cluster benar benar online. 
 
-2. Klik ikon (+) yang berada disebelah tab `Terminal Host 1` lalu pilih select `Port to view on host 2`. 
-
-3. Akan ada tab baru muncul. Masukan port `9021` pada kolom sebelah `Display Port`. Jika masih ada tulisan `Unable to connect to Port 9021`, tunggu beberapa saat lagi kemudian klik `Try again` atau `Display Port`.
-   
-3. Mulai dari sekarang, sampai step terakhir, kita akan mengoperasikan `Confluent` melalui `Dashboard` ini.
+2. Mulai dari sekarang, sampai step terakhir, kita akan mengoperasikan `Confluent` melalui `Dashboard` ini.

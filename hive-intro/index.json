@@ -2,7 +2,7 @@
   "title": "Introduction Hive",
   "description": "Introduction Hive",
   "difficulty": "Beginner",
-  "time": "20 minutes",
+  "time": "60 minutes",
   "details": {
     "assets": {
       "host01": [
@@ -22,12 +22,12 @@
       {
         "title": "Step 2",
         "text": "step2.md",
-        "code": "setup.sh"
+        "foreground": "setup.sh"
       }
     ],
     "intro": {
       "text": "intro.md",
-      "code": "setupJava.sh"
+      "foreground": "setupJava.sh"
     },
     "finish": {
       "text": "finish.md"
