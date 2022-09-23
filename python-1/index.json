@@ -34,7 +34,7 @@
     ],
     "intro": {
       "text": "intro.md",
-      "code": "setup.sh"
+      "foreground": "setup.sh"
     },
     "finish": {
       "text": "finish.md"
@@ -44,6 +44,6 @@
     "uilayout": "terminal-terminal"
   },
   "backend": {
-    "imageid": "python:3.6"
+    "imageid": "ubuntu"
   }
 }
