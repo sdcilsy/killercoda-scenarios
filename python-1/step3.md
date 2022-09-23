@@ -14,7 +14,7 @@ print("hello!")
 
 Kedua dengan karakter quotes (') & (")
 
-```
+```sh
 '''
 ini comment
 sangat panjang
@@ -22,7 +22,7 @@ sampai 3 line
 '''
 print("Hello!")```{{execute}}
 
-```
+```sh
 """
 ini comment
 sangat panjang
