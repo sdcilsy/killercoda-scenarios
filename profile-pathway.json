@@ -34,6 +34,11 @@
 			"title": "Kubernetes 1",
 			"description": "Membuat Kubernetes Cluster menggunakan Minikube",
 			"id": "kubernetes-1"
+		},
+		{
+			"title": "Docker Sandbox",
+			"description": "Sandbox for Docker",
+			"id": "docker-sandbox"
 		}		
 	]
 }

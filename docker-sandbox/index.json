@@ -1,21 +1,13 @@
 {
-  "title": "hello-world",
-  "description": "hello-world",
+  "title": "docker-sandbox",
+  "description": "Sandbox for Docker",
   "difficulty": "Beginner",
-  "time": "5",
+  "time": "60",
   "details": {
     "steps": [
       {
         "title": "Step 1",
         "text": "step1.md"
-      },
-      {
-        "title": "Step 2",
-        "text": "step2.md"
-      },
-      {
-        "title": "Step 3",
-        "text": "step3.md"
       }
     ],
     "intro": {
@@ -26,9 +18,9 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal"
+    "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "ubuntu1804"
+    "imageid": "ubuntu"
   }
 }
