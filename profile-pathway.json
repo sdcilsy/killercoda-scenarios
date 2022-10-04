@@ -44,6 +44,11 @@
 			"title": "Kubernetes Sandbox",
 			"description": "Sandbox for Kubernetes",
 			"id": "kubernetes-sandbox"
-		}		
+		},
+		{
+			"title": "Jenkins Sandbox",
+			"description": "Sandbox for Jenkins",
+			"id": "jenkins-sandbox"
+		}
 	]
 }
