@@ -1,6 +1,6 @@
 {
-  "title": "docker-sandbox",
-  "description": "Sandbox for Docker",
+  "title": "jenkins-sandbox",
+  "description": "Sandbox for Jenkins",
   "difficulty": "Beginner",
   "time": "60",
   "details": {
