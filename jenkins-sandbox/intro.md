@@ -1,4 +1,4 @@
-# Docker Sandbox
+# Jenkins Sandbox
 
 Ini adalah sandbox untuk Jenkins.
 
