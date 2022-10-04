@@ -39,6 +39,11 @@
 			"title": "Docker Sandbox",
 			"description": "Sandbox for Docker",
 			"id": "docker-sandbox"
+		},
+		{
+			"title": "Kubernetes Sandbox",
+			"description": "Sandbox for Kubernetes",
+			"id": "kubernetes-sandbox"
 		}		
 	]
 }
