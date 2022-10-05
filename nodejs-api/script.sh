@@ -5,8 +5,6 @@ sudo apt-get install -y nodejs
 
 git clone https://github.com/sdcilsy/nodejs_api.git
 
-cd nodejs_api 
-
 npm install
 
 node server.js

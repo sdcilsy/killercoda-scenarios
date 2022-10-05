@@ -6,7 +6,7 @@
   "details": {
     "assets": {
       "host01": [
-          {"file": "dump.sql", "target": "/root", "chmod": "+rwx"}
+          {"file": "**", "target": "/root", "chmod": "+rwx"}
       ]
     },
     "steps": [
