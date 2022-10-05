@@ -7,6 +7,8 @@ git clone https://github.com/sdcilsy/nodejs_api.git
 
 cd nodejs_api 
 
+npm install
+
 node server.js
 
 docker run --name mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=nodejs-api -d mysql:latest -v /root/dump.sql:/docker-entrypoint-initdb.d/dump.sql
