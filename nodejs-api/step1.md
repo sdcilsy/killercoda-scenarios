@@ -2,6 +2,8 @@
 
 Lakukan praktikum pada section pada sandbox yang sudah disediakan.
 
+Buka tab baru dengan mengklik ikon "+" disamping "Tab1".
+
 ## POST
 
 ```
