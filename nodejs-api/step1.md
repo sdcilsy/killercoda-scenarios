@@ -16,6 +16,7 @@ curl -d "first_name=andi&last_name=hermawan" -X POST http://localhost:3000/users
 curl -X GET http://localhost:3000/users
 ```{{execute}}
 
+```
 curl -X GET http://localhost:3000/users/1
 ```{{execute}}
 
