@@ -49,6 +49,11 @@
 			"title": "Jenkins Sandbox",
 			"description": "Sandbox for Jenkins",
 			"id": "jenkins-sandbox"
+		},
+		{
+			"title": "NodeJS API",
+			"description": "Praktikum API",
+			"id": "nodejs-api"
 		}
 	]
 }
