@@ -1,0 +1,20 @@
+version: "3.9"
+services:
+  web:
+    build: .
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
+  db:
+    image: mysql:latest
+    ports:
+      - 3306:3306
+    environment:
+      - MYSQL_ROOT_PASSWORD=nodejs_api
+      - MYSQL_DATABASE=nodejs_api
+      - MYSQL_USER=nodejs_api
+      - MYSQL_PASSWORD=nodejs_api
+    volumes:
+      - ./dump.sql:/docker-entrypoint-initdb.d/dump.sql
+    command: mysqld --default-authentication-plugin=mysql_native_password
