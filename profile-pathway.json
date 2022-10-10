@@ -54,6 +54,11 @@
 			"title": "NodeJS API",
 			"description": "Praktikum API",
 			"id": "nodejs-api"
+		},
+		{
+			"title": "On Premise Sanbox",
+			"description": "On Premise Sanbox",
+			"id": "on-premise-sanbox"
 		}
 	]
 }
