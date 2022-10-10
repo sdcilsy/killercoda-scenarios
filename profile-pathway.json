@@ -59,6 +59,11 @@
 			"title": "On Premise Sanbox",
 			"description": "On Premise Sanbox",
 			"id": "on-premise-sanbox"
+		},
+		{
+			"title": "Git Sandbox",
+			"description": "Sandbox for git",
+			"id": "git-sanbox"
 		}
 	]
 }
