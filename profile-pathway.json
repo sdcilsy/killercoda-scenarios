@@ -73,7 +73,7 @@
 		{
 			"title": "Damn Vulnerable Web App",
 			"description": "Sandbox for DVWA",
-			"id": "sandbox-dvwa"
+			"id": "dvwa-sandbox"
 		}
 	]
 }
