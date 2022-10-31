@@ -69,6 +69,11 @@
 			"title": "Juice Shop Sandbox",
 			"description": "Sandbox for juiceshop",
 			"id": "juice-shop-sandbox"
+		},
+		{
+			"title": "Damn Vulnerable Web App",
+			"description": "Sandbox for DVWA",
+			"id": "sandbox-dvwa"
 		}
 	]
 }
