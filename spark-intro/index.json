@@ -13,8 +13,7 @@
     "steps": [
       {
         "title": "Step 1",
-        "text": "step1.md",
-        "foreground": "setupSpark.sh"
+        "text": "step1.md"
       },
       {
         "title": "Step 2",
@@ -30,7 +29,8 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "foreground": "setup.sh"
     },
     "finish": {
       "text": "finish.md"
